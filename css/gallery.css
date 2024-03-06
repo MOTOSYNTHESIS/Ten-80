@@ -30,7 +30,7 @@
   .item {
     overflow: hidden;
     transform: rotate(0deg);
-    filter: saturate(0) contrast(10) brightness(0.2)  opacity(100)
+   
  ;
     transition: transform 0.2s, border 0.1s;
     box-sizing: border-box;
@@ -44,14 +44,7 @@
       transition: all 0.3s;
     }
 
-    &.inbound {
-      transform: rotate(0);
-      filter: none;
-      border-bottom: 1px solid white;
-
-      & img {
-        transform: rotate(0);
-      }
-    }
+    
+    
   }
 }
